@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity {
         email=findViewById(R.id.email);
         pass=findViewById(R.id.password);
         btn=findViewById(R.id.button);
-        e=email.getText().toString();
-        p=pass.getText().toString();
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                e=email.getText().toString();
+                p=pass.getText().toString();
                 if(e.isEmpty()||p.isEmpty())
                     Toast.makeText(MainActivity.this,"Fill all the fields!!",Toast.LENGTH_LONG).show();
                 else if(e.equals("akanksha6@gmail.com")&&p.equals("a1234"))
