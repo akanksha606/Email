@@ -15,42 +15,49 @@
 
         />
     <EditText
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email ID"
-        android:textSize="25dp"
+        android:textSize="20sp"
         android:padding="20dp"
         />
     <EditText
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:textSize="25dp"
+        android:textSize="20sp"
         android:padding="20dp"
         />
     <TextView
         android:text="Forgot Password?"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textColor="#061116"
         android:layout_gravity="end"
         />
     <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="15dp"
         android:text="SIGN IN"
         android:textSize="20dp"
         android:background="#3530a5"
         android:textColor="#fdfefe"
+        android:onClick="checkEmail"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Don't have an account? Sign Up"
-        android:textColor="#061116"
-        android:textSize="15dp"
+        android:textColor="#80000000"
+        android:textSize="15sp"
         android:layout_gravity="center"
         />
 
